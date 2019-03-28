@@ -1,0 +1,21 @@
+Kubernetes Components 
+
+Master: 
+kube-apiserver
+etcd
+kube-scheduler
+kube-controller-manager
+cloud-controller-manager
+
+Node: 
+Kubelet
+kube-proxy
+Container Runtime
+==========================================================================
+Cluster:group of nodes
+cluster had more than one node and spreads containers across nodes
+
+Q:who will manage this cluster??
+Cluster doesnot work on its work that is why ,we need master node to manage our cluster
+
+**kube-apiserver**
